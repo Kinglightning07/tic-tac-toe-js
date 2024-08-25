@@ -87,7 +87,7 @@ function set() {
     moves += 1;
     score[turn] += this.identifier;
     if (win(this)) {
-        alert('Winner: Player ' + turn);
+        alert(turn + "won the game!");
         startNewGame();
     } else if (moves === N_SIZE * N_SIZE) {
         alert('Draw');
