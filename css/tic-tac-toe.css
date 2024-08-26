@@ -8,7 +8,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f0f0f0;
+  background-image: url("Tiberiumbridge.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   height: 100vh;
   width: 100%;
   overflow: hidden;
@@ -20,7 +23,7 @@ body {
   align-content: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url("Tiberiumbridge.jpg");
+  background: #f0f0f0;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -34,7 +37,8 @@ table {
 }
 
 td {
-  background-color: #4a4a4a;
+  background-image: url(Steel-Diamond-Plate-25.jpg);
+  background-size: contain;
   border: 5px solid #fff;
   font-size: 80px;
   color: #fff;
@@ -64,11 +68,11 @@ td.x::before, td.o::before {
 }
 
 td.x::before {
-  background-image: url('path/to/x-image.png'); /* Replace with your 3D X image path */
+  background-image: url('CNCR_GDILogo.webp'); /* Replace with your 3D X image path */
 }
 
 td.o::before {
-  background-image: url('path/to/o-image.png'); /* Replace with your 3D O image path */
+  background-image: url('CNCR_NodLogo.webp'); /* Replace with your 3D O image path */
 }
 
 #player {
